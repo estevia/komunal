@@ -6,7 +6,7 @@ export default defineConfig({
     browserPermissions: {
       notifications: 'block',
     },
-    webUrlAlpha: 'https://alpha-web.lemonilo.com',
+    webUrl: 'https://user.depositobpr.id',
   },
   defaultCommandTimeout: 30000,
   pageLoadTimeout: 60000,

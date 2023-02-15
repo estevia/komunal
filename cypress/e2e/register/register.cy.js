@@ -1,7 +1,7 @@
-const webUrl = Cypress.env('BASE_URL');
+const webUrl = Cypress.env('ALPHA_BASE_URL');
 
 const register = () => {
-    cy.visit(`${webUrl}/signup/deposan`)
+    cy.visit(`${webUrl}/register`)
     cy.getElementByTestId('txtRegisterTitle')
       .should('be.visible')  
     cy.getElementByTestId('inpRegisterEmail').clear().type('lizachairunnisa+' + userID_Numeric())

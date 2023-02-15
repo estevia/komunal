@@ -16,7 +16,7 @@ Installation package cypress
 
 create branch 
 -------------
- `New Branch`
+`https://dev.azure.com/lemonilo/Lemonilo%20Testing/_git/lemonilo-frontend-web-e2e/branches` --> click button `New Branch`
 `git checkout -b feature/{namabranch}` --> buat branch baru di local
 
 push branch ke azure

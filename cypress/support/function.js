@@ -59,7 +59,7 @@ Cypress.Commands.add('login', () => {
 
 //Command add to cart via product detail
 Cypress.Commands.add('addToCart', () => {
-  const webUrl = Cypress.env('BASE_URL');
+  const webUrl = Cypress.env('ALPHA_BASE_URL');
   cy.visit(
     `${webUrl}/product/lemonilo-bumbu-penyedap-segala-all-purpose-seasoning`,
   );

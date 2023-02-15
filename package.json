@@ -1,25 +1,14 @@
 {
-  "name": "lemonilo-frontend-web-e2e",
+  "name": "cypress",
   "version": "1.0.0",
-  "description": "",
+  "description": "cypress automation by via",
   "main": "index.js",
   "scripts": {
-    "cy:run": "cypress run",
-    "cy:open": "cypress open",
-    "cy:login": "cypress run --spec 'cypress/integration/login.js'"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "author": "via",
   "license": "ISC",
   "dependencies": {
-    "cypress-browser-permissions": "^1.0.5",
-    "cypress-dotenv": "2.0.0",
-    "dotenv": "16.0.1"
-  },
-  "devDependencies": {
-    "@types/node": "^16.3.2",
-    "cypress": "^10.3.0",
-    "prettier": "2.7.0",
-    "typescript": "^4.3.5"
+    "cypress": "^9.5.3"
   }
 }

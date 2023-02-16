@@ -1,4 +1,5 @@
-const webUrl = Cypress.env('BASE_URL');
+const webUrl = 'https://user.depositobpr.id'
+
 
 const signup = () => {
     cy.visit(`${webUrl}/signup/deposan`)}
